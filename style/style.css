@@ -1,0 +1,91 @@
+body
+{
+       
+        background-color: #E9EDF0 !important;
+       
+}
+.top .header
+{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+    width: 100%;
+}
+.top
+{
+    background-color: #008848;
+    position:fixed;
+    width: 100%;
+    top:0;
+}
+.header div a{
+    color: #fff;
+}
+.header .cart{
+    background: #037540;
+    height:100%;
+    width: 100%;
+}
+.btn-search {
+    position: absolute;
+    border:none;
+    background:transparent;
+    line-height:35px;
+    right:20px;
+    cursor: pointer;
+    outline: unset;
+}
+.search{
+    position: relative;
+}
+.search input{
+    outline: unset;
+    border: none;
+    line-height: 30px;
+    border-radius:5px
+}
+.checkproduct a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 11px;
+    display: block;
+}
+.order a{
+    font-size:12px;
+    line-height: 15px;
+    display:block;
+}
+.containerx
+{
+    max-width: 1200px;
+    position: relative;
+    padding: 0px !important;
+    margin:0 auto;
+    margin-top: 50px;
+    
+}
+.containerx .sidebar
+{
+    width: 220px;
+   position:fixed;
+    background-color: #ffffff;
+    top: 15px;
+    height: 100%;
+    
+    
+}
+.containerx .sidebar ul
+{
+    margin: 0;
+    padding: 0;
+    background-color:#ffffff;
+}
+.containerx .sidebar ul li
+{
+    list-style-type: none;
+}
+.containerx .main {
+    margin-left: 220px;
+    
+}
